@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void irSuma(View view){
         //Indica que actividad va a realizar
         Intent intent = new Intent(this, SumaActivity.class);
-
+        Intent intent1 = new Intent(this, RestaActivity.class);
+        Intent intent2 = new Intent(this, MultiActivity.class);
+        Intent intent3 = new Intent(this, DivisionActivity.class);
         //Ciclo de vida de la actividad
         view.getContext().startActivity(intent);
 
